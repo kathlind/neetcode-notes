@@ -48,7 +48,7 @@ created: 2026-05-26
 
 ## Manual installation
 
-Download the latest release and copy these files:
+Clone repo and copy these files:
 
 ```text
 manifest.json
