@@ -1,0 +1,10 @@
+{
+  "id": "neetcode-notes",
+  "name": "NeetCode Notes",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Create structured Obsidian notes from NeetCode problem links.",
+  "author": "твой-ник",
+  "authorUrl": "https://github.com/твой-ник",
+  "isDesktopOnly": false
+}

@@ -1,0 +1,45 @@
+.neetcode-folder-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 8px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.neetcode-folder-button {
+	width: 100%;
+	padding: 10px 12px;
+	border-radius: 8px;
+	border: 1px solid var(--background-modifier-border);
+	background: var(--background-secondary);
+	color: var(--text-normal);
+	cursor: pointer;
+	text-align: left;
+	font-size: 14px;
+}
+
+.neetcode-folder-button:hover {
+	background: var(--background-modifier-hover);
+}
+
+.neetcode-folder-button-suggested {
+	border-color: var(--interactive-accent);
+}
+
+.neetcode-suggested-block {
+	margin-top: 12px;
+	margin-bottom: 12px;
+	padding: 12px;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 8px;
+	background: var(--background-secondary-alt);
+}
+
+.neetcode-suggested-title {
+	margin-bottom: 8px;
+	font-weight: 600;
+}
+
+.neetcode-topic-inline {
+	color: var(--text-muted);
+}

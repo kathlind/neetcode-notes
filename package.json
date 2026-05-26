@@ -1,0 +1,25 @@
+{
+  "name": "neetcode-notes",
+  "version": "0.1.0",
+  "description": "Obsidian plugin for creating structured notes from NeetCode problem links.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "esbuild main.ts --bundle --external:obsidian --format=cjs --target=es2018 --outfile=main.js --watch",
+    "build": "tsc -noEmit -skipLibCheck && esbuild main.ts --bundle --external:obsidian --format=cjs --target=es2018 --outfile=main.js"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidian-plugin",
+    "neetcode",
+    "leetcode",
+    "notes"
+  ],
+  "author": "твой-ник",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "esbuild": "^0.20.2",
+    "obsidian": "^1.5.12",
+    "typescript": "^5.4.2"
+  }
+}
